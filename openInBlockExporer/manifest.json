@@ -1,0 +1,12 @@
+  {
+    "name": "Open in Block explorer",
+    "description" : "Open BTC Adresses on Blockchain.com or ETH Adresses on Etherscan.io from the Context menu",
+    "version": "1.0",
+	"permissions": ["contextMenus"],
+	"background": {
+		"persistent": false,
+		"scripts": ["background.js"]
+	},
+
+	"manifest_version": 2
+  }
